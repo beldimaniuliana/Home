@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" 
+	id="WebApp_ID" version="2.4">
+	
+	<display-name>FirstWebApp</display-name>
+	
+	<servlet>
+		<servlet-name>FirstServlet</servlet-name>
+		<servlet-class>WebApp.servlets.FirstServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>FirstServlet</servlet-name>
+		<url-pattern>/firstservlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>SecondServlet</servlet-name>
+		<servlet-class>WebApp.servlets.SecondServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>SecondServlet</servlet-name>
+		<url-pattern>/secondservlet</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>FirstJSP</servlet-name>
+		<servlet-class>WebApp.jsp.FirstJSP</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>FirstJSP</servlet-name>
+		<url-pattern>/firstjsp</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
