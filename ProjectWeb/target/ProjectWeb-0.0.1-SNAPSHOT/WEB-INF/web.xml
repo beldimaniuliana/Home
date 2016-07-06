@@ -18,4 +18,25 @@
 		<url-pattern>/firstservlet</url-pattern>
 	</servlet-mapping>
 	
+	
+	<servlet>
+		<servlet-name>SecondServlet</servlet-name>
+		<servlet-class>WebApp.servlets.SecondServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>SecondServlet</servlet-name>
+		<url-pattern>/secondservlet</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>FirstJSP</servlet-name>
+		<servlet-class>WebApp.jsp.FirstJSP</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>FirstJSP</servlet-name>
+		<url-pattern>/firstjsp</url-pattern>
+	</servlet-mapping>
+	
 </web-app>
