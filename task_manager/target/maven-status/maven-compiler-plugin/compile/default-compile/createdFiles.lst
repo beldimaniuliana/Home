@@ -1,0 +1,9 @@
+entities\HibernateUtil.class
+entities\Main.class
+Connect\DeleteUser.class
+entities\Test.class
+entities\User.class
+entities\Example1.class
+Connect\InsertUser.class
+Connect\UpdateUser.class
+Connect\UserOperations.class

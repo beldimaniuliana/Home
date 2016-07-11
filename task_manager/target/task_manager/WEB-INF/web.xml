@@ -1,0 +1,59 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	 
+	<servlet>
+        <servlet-name>Test</servlet-name>
+        <servlet-class>entities.Test</servlet-class>
+    </servlet>
+  
+  	<servlet>
+    	<servlet-name>UserOperations</servlet-name>
+        <servlet-class>Connect.UserOperations</servlet-class>
+    </servlet>
+    
+    <servlet>
+    	<servlet-name>InsertUser</servlet-name>
+        <servlet-class>Connect.InsertUser</servlet-class>
+    </servlet>
+    
+    <servlet>
+    	<servlet-name>DeleteUser</servlet-name>
+        <servlet-class>Connect.DeleteUser</servlet-class>
+    </servlet>
+    
+     <servlet>
+    	<servlet-name>UpdateUser</servlet-name>
+        <servlet-class>Connect.UpdateUser</servlet-class>
+    </servlet>
+    
+    
+    
+    <servlet-mapping>
+        <servlet-name>Test</servlet-name>
+        <url-pattern>/test</url-pattern>
+    </servlet-mapping>
+    
+     <servlet-mapping>
+        <servlet-name>UserOperations</servlet-name>
+        <url-pattern>/useroperations</url-pattern>
+    </servlet-mapping>
+    
+     <servlet-mapping>
+        <servlet-name>InsertUser</servlet-name>
+        <url-pattern>/insertuser</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>DeleteUser</servlet-name>
+        <url-pattern>/deleteuser</url-pattern>
+    </servlet-mapping>
+    
+     <servlet-mapping>
+        <servlet-name>UpdateUser</servlet-name>
+        <url-pattern>/updateuser</url-pattern>
+    </servlet-mapping>
+</web-app>

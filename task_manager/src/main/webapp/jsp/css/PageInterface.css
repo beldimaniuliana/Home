@@ -1,0 +1,39 @@
+@CHARSET "ISO-8859-1";
+
+*{
+	margin:0px auto;
+	padding:0px;
+}
+#page{
+	background:#656C6A;
+	width:1200px;
+	margin:5px auto;
+}
+#header {
+	background:#A2C7BE;
+	width:1200px;
+	height:100px;
+	float:left;
+}
+#menu{
+	background:#3A9C85;
+	width:1200px;
+	height:30px;
+	clear:both
+	
+}
+#left_column{
+	background:#31E4BB;
+	width:200px;
+	float:left;
+}
+#right_column{
+	background:#41645B;
+	width:1200px;
+	float:left;
+}
+#footer{
+	background:#12483B;
+	height:50px;
+	clear:both;
+}
